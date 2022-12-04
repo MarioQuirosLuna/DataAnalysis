@@ -1,133 +1,149 @@
 <?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="12/1/2022 12:27:59 PM"
+  DTS:CreationDate="12/2/2022 12:56:13 PM"
   DTS:CreationName="Microsoft.Package"
-  DTS:CreatorComputerName="MARIOQL"
-  DTS:CreatorName="MARIOQL\mario"
-  DTS:DTSID="{596ADDF6-8D10-4F62-8265-D1730B066345}"
+  DTS:CreatorComputerName="MARIOQUIRÓSLUNA"
+  DTS:CreatorName="MARIOQUIRÓSLUNA\Usuario"
+  DTS:DTSID="{146EA19A-0F9D-436D-AFE8-E44B8B89A4B3}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5035.0"
-  DTS:LocaleID="3082"
+  DTS:LocaleID="5130"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{D4E8C366-C214-4DA2-A3F0-8D38D60B0D3F}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{A6B90E7F-AB65-43FA-BB5A-2E4A3DA6026C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Almacen]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{AD77C663-6AC7-4236-BFF1-92962BFF1BF4}"
+      DTS:DTSID="{D8DA1BF4-D1A8-4CD0-B950-6FE9F589A6B0}"
       DTS:ObjectName="Almacen">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
-          DTS:LocaleID="3082"
+          DTS:LocaleID="5130"
           DTS:HeaderRowDelimiter="_x003B_"
           DTS:ColumnNamesInFirstDataRow="True"
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\mario\Desktop\Universidad\Proyectos\Examen2-Aplicada-B76090\Almacen.csv">
+          DTS:ConnectionString="C:\Users\Usuario\Desktop\ProyectosPersonales\DataAnalysis\Almacen.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="Index"
-              DTS:DTSID="{DF2E0788-173F-4986-BB2C-51178DB02DB4}"
+              DTS:DTSID="{9C1E9B9C-1AEC-4436-ADF7-9F7474933AF8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Region"
-              DTS:DTSID="{10087009-FE18-444E-8DBF-0A7FBE6FC67A}"
+              DTS:DTSID="{7BD15A14-A844-41B7-BCED-493EB76BFD90}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Natural Change Births minus Deaths (thousands)"
-              DTS:DTSID="{09D943CB-40AF-4E05-9826-FADFC03893B7}"
+              DTS:ObjectName="Year"
+              DTS:DTSID="{50E195BC-E1E6-409D-9E3D-F9D6736CA887}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Total Births (thousands)"
-              DTS:DTSID="{83C8EFBA-0F1A-4AD3-B3E8-E9E2BE9BC1F9}"
+              DTS:ObjectName="Births minus Deaths (INT)"
+              DTS:DTSID="{16D12F2A-C5DF-4A17-8892-BDBAD0045732}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Total Deaths (thousands)"
-              DTS:DTSID="{CDD598F7-2D7E-43D2-9D1F-1E63FEF99294}"
+              DTS:ObjectName="Births (INT)"
+              DTS:DTSID="{18756B0A-B264-40AA-ADA6-1B8DDF83ABAB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Population Growth Rate (thousands)"
-              DTS:DTSID="{7A991ACC-B9DA-4C9B-9F9A-0F02B4B681C5}"
+              DTS:ObjectName="Total Deaths (INT)"
+              DTS:DTSID="{3F2D189E-BB82-4686-9174-944765A5D780}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Total Population 1 January (thousands)"
-              DTS:DTSID="{4DEEB36A-E6BB-421A-B909-52D8CECC194D}"
+              DTS:ObjectName="Population Growth Rate (INT)"
+              DTS:DTSID="{901179D7-5BC2-455F-89D6-1D77E81BC227}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Sex Ratio at Birth (males per 100 female births)"
-              DTS:DTSID="{C217D77D-10F8-40D8-9BEE-597BBE3B742B}"
+              DTS:ObjectName="Total Population as of 1 January (INT)"
+              DTS:DTSID="{C068886B-5CF1-414B-BF16-5007453B78BB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Male Deaths (thousands)"
-              DTS:DTSID="{E9F6A36E-BB2F-4346-8B90-F4997B397C18}"
+              DTS:ObjectName="Sex Ratio at Birth (males per 100 female births) INT"
+              DTS:DTSID="{9FEC6F67-849A-43D2-AECE-BF460800259B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Female Deaths (thousands)"
-              DTS:DTSID="{3999A9D1-3C65-45DE-80EB-895D58D0ED9B}"
+              DTS:ObjectName="Male Deaths (INT)"
+              DTS:DTSID="{E506296D-DDA7-494D-877C-F87098C4D251}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x003B_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Mortality before Age 40, both sexes (deaths under age 40 per 1,0"
-              DTS:DTSID="{D9844473-90F4-4EAC-A3CF-37C37F98D62E}"
+              DTS:ObjectName="Female Deaths (INT)"
+              DTS:DTSID="{8EB2A08C-A3D7-4D0F-B143-864A52131DF8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Median Age as of 1 July (years) INT"
+              DTS:DTSID="{72C40BFC-3004-4C2E-B454-DC73F2D23B17}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Mortality before Age 40 both sexes (deaths under age 40) INT"
+              DTS:DTSID="{20113E6F-51D7-449F-AECA-3211A86123D0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
               DTS:DataType="5"
               DTS:TextQualified="True"
-              DTS:ObjectName="Year"
-              DTS:DTSID="{D79D768D-5A3E-4A24-B1B4-CFD69B358704}"
+              DTS:ObjectName="Population Change (INT)"
+              DTS:DTSID="{52967453-1985-4734-81E1-9740D167415C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -136,26 +152,38 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{F0F57C70-BFB1-495A-8913-396126BEF12E}"
+      DTS:DTSID="{110075ED-BD6F-4E49-90E9-7FD6650F67F1}"
       DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\mario\Desktop\Universidad\Proyectos\Examen2-Aplicada-B76090\WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Usuario\Desktop\ProyectosPersonales\DataAnalysis\WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.EXAMEN2_APLICADA_B76090]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{E443EE57-94A2-4C98-AE25-926858C7DB84}"
+      DTS:ObjectName="localhost.EXAMEN2_APLICADA_B76090">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=EXAMEN2_APLICADA_B76090;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{E443EE57-94A2-4C98-AE25-926858C7DB84}localhost.EXAMEN2_APLICADA_B76090;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Tarea Flujo de datos"
+      DTS:refId="Package\Data Flow Task"
       DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Tarea Flujo de datos"
-      DTS:DTSID="{85EB6D08-B95A-45AE-B2DB-DD9B1AA7CB37}"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{5145A751-447B-4635-8F2C-413A093AC043}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Tarea Flujo de datos"
+      DTS:ObjectName="Data Flow Task"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -163,714 +191,845 @@
           version="1">
           <components>
             <component
-              refId="Package\Tarea Flujo de datos\Destino de archivo plano"
+              refId="Package\Data Flow Task\Excel Source"
+              componentClassID="Microsoft.ExcelSource"
+              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Excel Source"
+              name="Excel Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">Hoja1$</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mapping from parameters in the SQL command to variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Excel Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output]"
+                  name="Excel Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Index]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Index]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Index]"
+                      name="Index"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Region]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Region]"
+                      length="255"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Region]"
+                      name="Region"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Year]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Year]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Year]"
+                      name="Year"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Births minus Deaths (INT)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Births minus Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Births minus Deaths (INT)]"
+                      name="Births minus Deaths (INT)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Births (INT)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Births (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Births (INT)]"
+                      name="Births (INT)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Total Deaths (INT)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Total Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Total Deaths (INT)]"
+                      name="Total Deaths (INT)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Population Growth Rate (INT)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Population Growth Rate (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Population Growth Rate (INT)]"
+                      name="Population Growth Rate (INT)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Total Population as of 1 January (INT)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Total Population as of 1 January (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Total Population as of 1 January (INT)]"
+                      name="Total Population as of 1 January (INT)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      name="Sex Ratio at Birth (males per 100 female births) INT"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Male Deaths (INT)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Male Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Male Deaths (INT)]"
+                      name="Male Deaths (INT)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Female Deaths (INT)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Female Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Female Deaths (INT)]"
+                      name="Female Deaths (INT)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Median Age as of 1 July (years) INT]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Median Age as of 1 July (years) INT]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Median Age as of 1 July (years) INT]"
+                      name="Median Age as of 1 July (years) INT"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      name="Mortality before Age 40 both sexes (deaths under age 40) INT"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Population Change (INT)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Population Change (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Population Change (INT)]"
+                      name="Population Change (INT)"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Index]"
+                      dataType="r8"
+                      name="Index" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="255"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Births minus Deaths (thousands)]"
+                      dataType="r8"
+                      name="Births minus Deaths (thousands)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Births (thousands)]"
+                      dataType="r8"
+                      name="Births (thousands)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Total Deaths (thousands)]"
+                      dataType="r8"
+                      name="Total Deaths (thousands)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Population Growth Rate (percentage)]"
+                      dataType="r8"
+                      name="Population Growth Rate (percentage)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Total Population as of 1 January (thousands)]"
+                      dataType="r8"
+                      name="Total Population as of 1 January (thousands)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sex Ratio at Birth (males per 100 female births)]"
+                      dataType="r8"
+                      name="Sex Ratio at Birth (males per 100 female births)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Male Deaths (thousands)]"
+                      dataType="r8"
+                      name="Male Deaths (thousands)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Female Deaths (thousands)]"
+                      dataType="r8"
+                      name="Female Deaths (thousands)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Median Age as of 1 July (years)]"
+                      dataType="r8"
+                      name="Median Age as of 1 July (years)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Mortality before Age 40 both sexes (deaths under age 40 per 1000]"
+                      dataType="r8"
+                      name="Mortality before Age 40 both sexes (deaths under age 40 per 1000" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Population Change (thousands)]"
+                      dataType="r8"
+                      name="Population Change (thousands)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Year]"
+                      dataType="r8"
+                      name="Year" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Births minus Deaths (INT)]"
+                      dataType="r8"
+                      name="Births minus Deaths (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Births (INT)]"
+                      dataType="r8"
+                      name="Births (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Total Deaths (INT)]"
+                      dataType="r8"
+                      name="Total Deaths (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Population Growth Rate (INT)]"
+                      dataType="r8"
+                      name="Population Growth Rate (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Total Population as of 1 January (INT)]"
+                      dataType="r8"
+                      name="Total Population as of 1 January (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      dataType="r8"
+                      name="Sex Ratio at Birth (males per 100 female births) INT" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Male Deaths (INT)]"
+                      dataType="r8"
+                      name="Male Deaths (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Female Deaths (INT)]"
+                      dataType="r8"
+                      name="Female Deaths (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Median Age as of 1 July (years) INT]"
+                      dataType="r8"
+                      name="Median Age as of 1 July (years) INT" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      dataType="r8"
+                      name="Mortality before Age 40 both sexes (deaths under age 40) INT" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].ExternalColumns[Population Change (INT)]"
+                      dataType="r8"
+                      name="Population Change (INT)" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output]"
+                  isErrorOut="true"
+                  name="Excel Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Index]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Index]"
+                      name="Index" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Region]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Region]"
+                      name="Region" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Births minus Deaths (INT)]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Births minus Deaths (INT)]"
+                      name="Births minus Deaths (INT)" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Births (INT)]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Births (INT)]"
+                      name="Births (INT)" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Total Deaths (INT)]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Total Deaths (INT)]"
+                      name="Total Deaths (INT)" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Population Growth Rate (INT)]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Population Growth Rate (INT)]"
+                      name="Population Growth Rate (INT)" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Total Population as of 1 January (INT)]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Total Population as of 1 January (INT)]"
+                      name="Total Population as of 1 January (INT)" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      name="Sex Ratio at Birth (males per 100 female births) INT" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Male Deaths (INT)]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Male Deaths (INT)]"
+                      name="Male Deaths (INT)" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Female Deaths (INT)]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Female Deaths (INT)]"
+                      name="Female Deaths (INT)" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Median Age as of 1 July (years) INT]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Median Age as of 1 July (years) INT]"
+                      name="Median Age as of 1 July (years) INT" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      name="Mortality before Age 40 both sexes (deaths under age 40) INT" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Population Change (INT)]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Population Change (INT)]"
+                      name="Population Change (INT)" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Year]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[Year]"
+                      name="Year" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Flat File Destination"
               componentClassID="Microsoft.FlatFileDestination"
-              contactInfo="Destino de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
-              description="Destino de archivo plano"
-              localeId="3082"
-              name="Destino de archivo plano"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="5130"
+              name="Flat File Destination"
               version="1">
               <properties>
                 <property
                   dataType="System.Boolean"
-                  description="Especifica si los datos sobrescriben el archivo de destino o se anexan al mismo."
+                  description="Specifies whether the data will overwrite or append to the destination file."
                   name="Overwrite">true</property>
                 <property
                   dataType="System.Null"
-                  description="Especifica el texto para escribir en el archivo de destino antes de escribir ningún dato."
+                  description="Specifies the text to write to the destination file before any data is written."
                   expressionType="Notify"
                   name="Header" />
                 <property
                   dataType="System.Boolean"
-                  description="Cuando el calificador de texto está habilitado, especifica si este contendrá secuencias de escape o no en los datos escritos en el archivo de destino."
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
                   name="EscapeQualifier">false</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Tarea Flujo de datos\Destino de archivo plano.Connections[FlatFileConnection]"
+                  refId="Package\Data Flow Task\Flat File Destination.Connections[FlatFileConnection]"
                   connectionManagerID="Package.ConnectionManagers[Almacen]"
                   connectionManagerRefId="Package.ConnectionManagers[Almacen]"
                   name="FlatFileConnection" />
               </connections>
               <inputs>
                 <input
-                  refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano]"
+                  refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input]"
                   hasSideEffects="true"
-                  name="Entrada de destino de archivo plano">
+                  name="Flat File Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Index]"
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Index]"
                       cachedDataType="r8"
                       cachedName="Index"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Index]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Index]" />
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Index]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Index]" />
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Region]"
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Region]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Region"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Region]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Region]" />
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Region]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Region]" />
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Natural Change Births minus Deaths (thousands)]"
-                      cachedDataType="r8"
-                      cachedName="Natural Change Births minus Deaths (thousands)"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Natural Change Births minus Deaths (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Natural Change Births minus Deaths (thousands)]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Total Births (thousands)]"
-                      cachedDataType="r8"
-                      cachedName="Total Births (thousands)"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Total Births (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Total Births (thousands)]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Total Deaths (thousands)]"
-                      cachedDataType="r8"
-                      cachedName="Total Deaths (thousands)"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Total Deaths (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Total Deaths (thousands)]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Population Growth Rate (thousands)]"
-                      cachedDataType="r8"
-                      cachedName="Population Growth Rate (thousands)"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Population Growth Rate (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Population Growth Rate (thousands)]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Total Population 1 January (thousands)]"
-                      cachedDataType="r8"
-                      cachedName="Total Population 1 January (thousands)"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Total Population 1 January (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Total Population 1 January (thousands)]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Sex Ratio at Birth (males per 100 female births)]"
-                      cachedDataType="r8"
-                      cachedName="Sex Ratio at Birth (males per 100 female births)"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Sex Ratio at Birth (males per 100 female births)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Sex Ratio at Birth (males per 100 female births)]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Male Deaths (thousands)]"
-                      cachedDataType="r8"
-                      cachedName="Male Deaths (thousands)"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Male Deaths (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Male Deaths (thousands)]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Female Deaths (thousands)]"
-                      cachedDataType="r8"
-                      cachedName="Female Deaths (thousands)"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Female Deaths (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Female Deaths (thousands)]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]"
-                      cachedDataType="r8"
-                      cachedName="Mortality before Age 40, both sexes (deaths under age 40 per 1,0"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Year]"
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Year]"
                       cachedDataType="r8"
                       cachedName="Year"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Year]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Year]" />
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Year]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Year]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Births minus Deaths (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Births minus Deaths (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Births minus Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Births minus Deaths (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Births (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Births (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Births (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Births (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Total Deaths (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Total Deaths (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Total Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Total Deaths (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Population Growth Rate (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Population Growth Rate (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Population Growth Rate (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Population Growth Rate (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Total Population as of 1 January (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Total Population as of 1 January (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Total Population as of 1 January (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Total Population as of 1 January (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      cachedDataType="r8"
+                      cachedName="Sex Ratio at Birth (males per 100 female births) INT"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Sex Ratio at Birth (males per 100 female births) INT]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Male Deaths (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Male Deaths (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Male Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Male Deaths (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Female Deaths (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Female Deaths (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Female Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Female Deaths (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Median Age as of 1 July (years) INT]"
+                      cachedDataType="r8"
+                      cachedName="Median Age as of 1 July (years) INT"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Median Age as of 1 July (years) INT]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Median Age as of 1 July (years) INT]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      cachedDataType="r8"
+                      cachedName="Mortality before Age 40 both sexes (deaths under age 40) INT"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Mortality before Age 40 both sexes (deaths under age 40) INT]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Population Change (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Population Change (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Population Change (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Population Change (INT)]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Index]"
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Index]"
                       dataType="r8"
                       name="Index" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Region]"
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Region]"
                       dataType="wstr"
                       length="255"
                       name="Region" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Natural Change Births minus Deaths (thousands)]"
-                      dataType="r8"
-                      name="Natural Change Births minus Deaths (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Total Births (thousands)]"
-                      dataType="r8"
-                      name="Total Births (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Total Deaths (thousands)]"
-                      dataType="r8"
-                      name="Total Deaths (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Population Growth Rate (thousands)]"
-                      dataType="r8"
-                      name="Population Growth Rate (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Total Population 1 January (thousands)]"
-                      dataType="r8"
-                      name="Total Population 1 January (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Sex Ratio at Birth (males per 100 female births)]"
-                      dataType="r8"
-                      name="Sex Ratio at Birth (males per 100 female births)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Male Deaths (thousands)]"
-                      dataType="r8"
-                      name="Male Deaths (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Female Deaths (thousands)]"
-                      dataType="r8"
-                      name="Female Deaths (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]"
-                      dataType="r8"
-                      name="Mortality before Age 40, both sexes (deaths under age 40 per 1,0" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Year]"
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Year]"
                       dataType="r8"
                       name="Year" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Births minus Deaths (INT)]"
+                      dataType="r8"
+                      name="Births minus Deaths (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Births (INT)]"
+                      dataType="r8"
+                      name="Births (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Total Deaths (INT)]"
+                      dataType="r8"
+                      name="Total Deaths (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Population Growth Rate (INT)]"
+                      dataType="r8"
+                      name="Population Growth Rate (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Total Population as of 1 January (INT)]"
+                      dataType="r8"
+                      name="Total Population as of 1 January (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      dataType="r8"
+                      name="Sex Ratio at Birth (males per 100 female births) INT" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Male Deaths (INT)]"
+                      dataType="r8"
+                      name="Male Deaths (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Female Deaths (INT)]"
+                      dataType="r8"
+                      name="Female Deaths (INT)" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Median Age as of 1 July (years) INT]"
+                      dataType="r8"
+                      name="Median Age as of 1 July (years) INT" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      dataType="r8"
+                      name="Mortality before Age 40 both sexes (deaths under age 40) INT" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Population Change (INT)]"
+                      dataType="r8"
+                      name="Population Change (INT)" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
             </component>
             <component
-              refId="Package\Tarea Flujo de datos\Multidifusión"
+              refId="Package\Data Flow Task\Multicast"
               componentClassID="Microsoft.Multicast"
-              contactInfo="Multidifusión;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
-              description="Distribuye cada fila de entrada a cada una de las filas de una o varias salidas. Por ejemplo, se crea una bifurcación de un flujo de datos para realizar una copia de los datos de modo que se puedan enmascarar algunos valores antes de compartirlos con los asociados externos."
-              name="Multidifusión">
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
               <inputs>
                 <input
-                  refId="Package\Tarea Flujo de datos\Multidifusión.Inputs[Entrada de Multidifusión 1]"
-                  name="Entrada de Multidifusión 1">
+                  refId="Package\Data Flow Task\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Tarea Flujo de datos\Multidifusión.Outputs[Salida de Multidifusión 1]"
+                  refId="Package\Data Flow Task\Multicast.Outputs[Multicast Output 1]"
                   deleteOutputOnPathDetached="true"
-                  name="Salida de Multidifusión 1"
-                  synchronousInputId="Package\Tarea Flujo de datos\Multidifusión.Inputs[Entrada de Multidifusión 1]">
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\Data Flow Task\Multicast.Inputs[Multicast Input 1]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Tarea Flujo de datos\Multidifusión.Outputs[Salida de multidifusión 1]"
+                  refId="Package\Data Flow Task\Multicast.Outputs[Multicast Output 2]"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 2"
+                  synchronousInputId="Package\Data Flow Task\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Multicast.Outputs[Multicast Output 3]"
                   dangling="true"
                   deleteOutputOnPathDetached="true"
-                  name="Salida de multidifusión 1"
-                  synchronousInputId="Package\Tarea Flujo de datos\Multidifusión.Inputs[Entrada de Multidifusión 1]">
+                  name="Multicast Output 3"
+                  synchronousInputId="Package\Data Flow Task\Multicast.Inputs[Multicast Input 1]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
             </component>
             <component
-              refId="Package\Tarea Flujo de datos\Origen de Excel"
-              componentClassID="Microsoft.ExcelSource"
-              contactInfo="Origen de Excel;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
-              description="Origen de Excel"
-              name="Origen de Excel"
+              refId="Package\Data Flow Task\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
               usesDispositions="true"
-              version="1">
+              version="4">
               <properties>
                 <property
                   dataType="System.Int32"
-                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
                   name="CommandTimeout">0</property>
                 <property
                   dataType="System.String"
-                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
-                  name="OpenRowset">Estimates$</property>
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[DATA_B76090]</property>
                 <property
                   dataType="System.String"
-                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
                   name="OpenRowsetVariable"></property>
                 <property
                   dataType="System.String"
-                  description="Comando SQL para ejecutar."
+                  description="The SQL command to be executed."
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
-                  dataType="System.String"
-                  description="Variable que contiene el comando SQL para ejecutar."
-                  name="SqlCommandVariable"></property>
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
                 <property
                   dataType="System.Int32"
-                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  description="Specifies the mode used to access the database."
                   name="AccessMode"
                   typeConverter="AccessMode">0</property>
                 <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
                   dataType="System.String"
-                  description="La asignación de parámetros del comando SQL a variables."
-                  name="ParameterMapping"></property>
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Tarea Flujo de datos\Origen de Excel.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
-                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.EXAMEN2_APLICADA_B76090]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.EXAMEN2_APLICADA_B76090]"
+                  description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
-              <outputs>
-                <output
-                  refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel]"
-                  name="Salida de origen de Excel">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Index]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Index]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Index]"
-                      name="Index"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Region]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Region]"
-                      length="255"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Region]"
-                      name="Region"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Natural Change Births minus Deaths (thousands)]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Natural Change Births minus Deaths (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Natural Change Births minus Deaths (thousands)]"
-                      name="Natural Change Births minus Deaths (thousands)"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Total Births (thousands)]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Births (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Total Births (thousands)]"
-                      name="Total Births (thousands)"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Total Deaths (thousands)]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Deaths (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Total Deaths (thousands)]"
-                      name="Total Deaths (thousands)"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Population Growth Rate (thousands)]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Population Growth Rate (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Population Growth Rate (thousands)]"
-                      name="Population Growth Rate (thousands)"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Total Population 1 January (thousands)]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Population 1 January (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Total Population 1 January (thousands)]"
-                      name="Total Population 1 January (thousands)"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Sex Ratio at Birth (males per 100 female births)]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Sex Ratio at Birth (males per 100 female births)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Sex Ratio at Birth (males per 100 female births)]"
-                      name="Sex Ratio at Birth (males per 100 female births)"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Male Deaths (thousands)]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Deaths (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Male Deaths (thousands)]"
-                      name="Male Deaths (thousands)"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Female Deaths (thousands)]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Deaths (thousands)]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Female Deaths (thousands)]"
-                      name="Female Deaths (thousands)"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]"
-                      name="Mortality before Age 40, both sexes (deaths under age 40 per 1,0"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Year]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Year]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].Columns[Year]"
-                      name="Year"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Index]"
+                      cachedDataType="r8"
+                      cachedName="Index"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Index]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Index]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Region]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Region"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Region]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Region]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Year]"
+                      cachedDataType="r8"
+                      cachedName="Year"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Year]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Births minus Deaths (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Births minus Deaths (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Births minus Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Births minus Deaths (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Births (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Births (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Births (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Births (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Total Deaths (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Total Deaths (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Total Deaths (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Population Growth Rate (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Population Growth Rate (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Population Growth Rate (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Population Growth Rate (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Total Population as of 1 January (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Total Population as of 1 January (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total Population as of 1 January (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Total Population as of 1 January (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      cachedDataType="r8"
+                      cachedName="Sex Ratio at Birth (males per 100 female births) INT"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Sex Ratio at Birth (males per 100 female births) INT]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Sex Ratio at Birth (males per 100 female births) INT]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Male Deaths (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Male Deaths (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Male Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Male Deaths (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Female Deaths (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Female Deaths (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Female Deaths (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Female Deaths (INT)]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Median Age as of 1 July (years) INT]"
+                      cachedDataType="r8"
+                      cachedName="Median Age as of 1 July (years) INT"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Median Age as of 1 July (years) INT]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Median Age as of 1 July (years) INT]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      cachedDataType="r8"
+                      cachedName="Mortality before Age 40 both sexes (deaths under age 40) INT"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Mortality before Age 40 both sexes (deaths under age 40) INT]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Population Change (INT)]"
+                      cachedDataType="r8"
+                      cachedName="Population Change (INT)"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Population Change (INT)]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[Population Change (INT)]" />
+                  </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Index]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Index]"
                       dataType="r8"
                       name="Index" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Variant]"
-                      dataType="wstr"
-                      length="255"
-                      name="Variant" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Region]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Region]"
                       dataType="wstr"
                       length="255"
                       name="Region" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Natural Change Births minus Deaths (thousands)]"
-                      dataType="r8"
-                      name="Natural Change Births minus Deaths (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Births (thousands)]"
-                      dataType="r8"
-                      name="Total Births (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Deaths (thousands)]"
-                      dataType="r8"
-                      name="Total Deaths (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Population Growth Rate (thousands)]"
-                      dataType="r8"
-                      name="Population Growth Rate (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Population 1 January (thousands)]"
-                      dataType="r8"
-                      name="Total Population 1 January (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Sex Ratio at Birth (males per 100 female births)]"
-                      dataType="r8"
-                      name="Sex Ratio at Birth (males per 100 female births)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Deaths (thousands)]"
-                      dataType="r8"
-                      name="Male Deaths (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Deaths (thousands)]"
-                      dataType="r8"
-                      name="Female Deaths (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]"
-                      dataType="r8"
-                      name="Mortality before Age 40, both sexes (deaths under age 40 per 1,0" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Year]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
                       dataType="r8"
                       name="Year" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Population, as of 1 January (thousands)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Births minus Deaths (INT)]"
                       dataType="r8"
-                      name="Total Population, as of 1 January (thousands)" />
+                      name="Births minus Deaths (INT)" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Population, as of 1 July (thousands)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Births (INT)]"
                       dataType="r8"
-                      name="Total Population, as of 1 July (thousands)" />
+                      name="Births (INT)" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Population, as of 1 July (thousands)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total Deaths (INT)]"
                       dataType="r8"
-                      name="Male Population, as of 1 July (thousands)" />
+                      name="Total Deaths (INT)" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Population, as of 1 July (thousands)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Population Growth Rate (INT)]"
                       dataType="r8"
-                      name="Female Population, as of 1 July (thousands)" />
+                      name="Population Growth Rate (INT)" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Population Density, as of 1 July (persons per square km)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total Population as of 1 January (INT)]"
                       dataType="r8"
-                      name="Population Density, as of 1 July (persons per square km)" />
+                      name="Total Population as of 1 January (INT)" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Population Sex Ratio, as of 1 July (males per 100 females)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Sex Ratio at Birth (males per 100 female births) INT]"
                       dataType="r8"
-                      name="Population Sex Ratio, as of 1 July (males per 100 females)" />
+                      name="Sex Ratio at Birth (males per 100 female births) INT" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Median Age, as of 1 July (years)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Male Deaths (INT)]"
                       dataType="r8"
-                      name="Median Age, as of 1 July (years)" />
+                      name="Male Deaths (INT)" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Natural Change, Births minus Deaths (thousands)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Female Deaths (INT)]"
                       dataType="r8"
-                      name="Natural Change, Births minus Deaths (thousands)" />
+                      name="Female Deaths (INT)" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Rate of Natural Change (per 1,000 population)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Median Age as of 1 July (years) INT]"
                       dataType="r8"
-                      name="Rate of Natural Change (per 1,000 population)" />
+                      name="Median Age as of 1 July (years) INT" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Population Change (thousands)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Mortality before Age 40 both sexes (deaths under age 40) INT]"
                       dataType="r8"
-                      name="Population Change (thousands)" />
+                      name="Mortality before Age 40 both sexes (deaths under age 40) INT" />
                     <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Population Growth Rate (percentage)]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Population Change (INT)]"
                       dataType="r8"
-                      name="Population Growth Rate (percentage)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Population Annual Doubling Time (years)]"
-                      dataType="r8"
-                      name="Population Annual Doubling Time (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Births (thousands)]"
-                      dataType="r8"
-                      name="Births (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Births by women aged 15 to 19 (thousands)]"
-                      dataType="r8"
-                      name="Births by women aged 15 to 19 (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Crude Birth Rate (births per 1,000 population)]"
-                      dataType="r8"
-                      name="Crude Birth Rate (births per 1,000 population)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Fertility Rate (live births per woman)]"
-                      dataType="r8"
-                      name="Total Fertility Rate (live births per woman)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Net Reproduction Rate (surviving daughters per woman)]"
-                      dataType="r8"
-                      name="Net Reproduction Rate (surviving daughters per woman)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Mean Age Childbearing (years)]"
-                      dataType="r8"
-                      name="Mean Age Childbearing (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Sex Ratio at Birth (males per 100 female births)1]"
-                      dataType="r8"
-                      name="Sex Ratio at Birth (males per 100 female births)1" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Total Deaths (thousands)1]"
-                      dataType="r8"
-                      name="Total Deaths (thousands)1" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Deaths (thousands)1]"
-                      dataType="r8"
-                      name="Male Deaths (thousands)1" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Deaths (thousands)1]"
-                      dataType="r8"
-                      name="Female Deaths (thousands)1" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Crude Death Rate (deaths per 1,000 population)]"
-                      dataType="r8"
-                      name="Crude Death Rate (deaths per 1,000 population)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Life Expectancy at Birth, both sexes (years)]"
-                      dataType="r8"
-                      name="Life Expectancy at Birth, both sexes (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Life Expectancy at Birth (years)]"
-                      dataType="r8"
-                      name="Male Life Expectancy at Birth (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Life Expectancy at Birth (years)]"
-                      dataType="r8"
-                      name="Female Life Expectancy at Birth (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Life Expectancy at Age 15, both sexes (years)]"
-                      dataType="r8"
-                      name="Life Expectancy at Age 15, both sexes (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Life Expectancy at Age 15 (years)]"
-                      dataType="r8"
-                      name="Male Life Expectancy at Age 15 (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Life Expectancy at Age 15 (years)]"
-                      dataType="r8"
-                      name="Female Life Expectancy at Age 15 (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Life Expectancy at Age 65, both sexes (years)]"
-                      dataType="r8"
-                      name="Life Expectancy at Age 65, both sexes (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Life Expectancy at Age 65 (years)]"
-                      dataType="r8"
-                      name="Male Life Expectancy at Age 65 (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Life Expectancy at Age 65 (years)]"
-                      dataType="r8"
-                      name="Female Life Expectancy at Age 65 (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Life Expectancy at Age 80, both sexes (years)]"
-                      dataType="r8"
-                      name="Life Expectancy at Age 80, both sexes (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Life Expectancy at Age 80 (years)]"
-                      dataType="r8"
-                      name="Male Life Expectancy at Age 80 (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Life Expectancy at Age 80 (years)]"
-                      dataType="r8"
-                      name="Female Life Expectancy at Age 80 (years)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Infant Deaths, under age 1 (thousands)]"
-                      dataType="r8"
-                      name="Infant Deaths, under age 1 (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Infant Mortality Rate (infant deaths per 1,000 live births)]"
-                      dataType="r8"
-                      name="Infant Mortality Rate (infant deaths per 1,000 live births)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Live Births Surviving to Age 1 (thousands)]"
-                      dataType="r8"
-                      name="Live Births Surviving to Age 1 (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Under-Five Deaths, under age 5 (thousands)]"
-                      dataType="r8"
-                      name="Under-Five Deaths, under age 5 (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Under-Five Mortality (deaths under age 5 per 1,000 live births)]"
-                      dataType="r8"
-                      name="Under-Five Mortality (deaths under age 5 per 1,000 live births)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Mortality before Age 40, both sexes (deaths under age 40 per 1,1]"
-                      dataType="r8"
-                      name="Mortality before Age 40, both sexes (deaths under age 40 per 1,1" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Mortality before Age 40 (deaths under age 40 per 1,000 male]"
-                      dataType="r8"
-                      name="Male Mortality before Age 40 (deaths under age 40 per 1,000 male" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Mortality before Age 40 (deaths under age 40 per 1,000 fe]"
-                      dataType="r8"
-                      name="Female Mortality before Age 40 (deaths under age 40 per 1,000 fe" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Mortality before Age 60, both sexes (deaths under age 60 per 1,0]"
-                      dataType="r8"
-                      name="Mortality before Age 60, both sexes (deaths under age 60 per 1,0" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Mortality before Age 60 (deaths under age 60 per 1,000 male]"
-                      dataType="r8"
-                      name="Male Mortality before Age 60 (deaths under age 60 per 1,000 male" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Mortality before Age 60 (deaths under age 60 per 1,000 fe]"
-                      dataType="r8"
-                      name="Female Mortality before Age 60 (deaths under age 60 per 1,000 fe" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Mortality between Age 15 and 50, both sexes (deaths under age 50]"
-                      dataType="r8"
-                      name="Mortality between Age 15 and 50, both sexes (deaths under age 50" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Mortality between Age 15 and 50 (deaths under age 50 per 1,]"
-                      dataType="r8"
-                      name="Male Mortality between Age 15 and 50 (deaths under age 50 per 1," />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Mortality between Age 15 and 50 (deaths under age 50 per ]"
-                      dataType="r8"
-                      name="Female Mortality between Age 15 and 50 (deaths under age 50 per " />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Mortality between Age 15 and 60, both sexes (deaths under age 60]"
-                      dataType="r8"
-                      name="Mortality between Age 15 and 60, both sexes (deaths under age 60" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Male Mortality between Age 15 and 60 (deaths under age 60 per 1,]"
-                      dataType="r8"
-                      name="Male Mortality between Age 15 and 60 (deaths under age 60 per 1," />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Female Mortality between Age 15 and 60 (deaths under age 60 per ]"
-                      dataType="r8"
-                      name="Female Mortality between Age 15 and 60 (deaths under age 60 per " />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Net Number of Migrants (thousands)]"
-                      dataType="r8"
-                      name="Net Number of Migrants (thousands)" />
-                    <externalMetadataColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[Net Migration Rate (per 1,000 population)]"
-                      dataType="r8"
-                      name="Net Migration Rate (per 1,000 population)" />
+                      name="Population Change (INT)" />
                   </externalMetadataColumns>
-                </output>
+                </input>
+              </inputs>
+              <outputs>
                 <output
-                  refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel]"
+                  refId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
                   isErrorOut="true"
-                  name="Salida de error de origen de Excel">
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Index]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Index]"
-                      name="Index" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Region]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Region]"
-                      name="Region" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Natural Change Births minus Deaths (thousands)]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Natural Change Births minus Deaths (thousands)]"
-                      name="Natural Change Births minus Deaths (thousands)" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Total Births (thousands)]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Total Births (thousands)]"
-                      name="Total Births (thousands)" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Total Deaths (thousands)]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Total Deaths (thousands)]"
-                      name="Total Deaths (thousands)" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Population Growth Rate (thousands)]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Population Growth Rate (thousands)]"
-                      name="Population Growth Rate (thousands)" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Total Population 1 January (thousands)]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Total Population 1 January (thousands)]"
-                      name="Total Population 1 January (thousands)" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Sex Ratio at Birth (males per 100 female births)]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Sex Ratio at Birth (males per 100 female births)]"
-                      name="Sex Ratio at Birth (males per 100 female births)" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Male Deaths (thousands)]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Male Deaths (thousands)]"
-                      name="Male Deaths (thousands)" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Female Deaths (thousands)]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Female Deaths (thousands)]"
-                      name="Female Deaths (thousands)" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Mortality before Age 40, both sexes (deaths under age 40 per 1,0]"
-                      name="Mortality before Age 40, both sexes (deaths under age 40 per 1,0" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Year]"
-                      dataType="r8"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[Year]"
-                      name="Year" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -881,15 +1040,20 @@
           </components>
           <paths>
             <path
-              refId="Package\Tarea Flujo de datos.Paths[Salida de Multidifusión 1]"
-              endId="Package\Tarea Flujo de datos\Destino de archivo plano.Inputs[Entrada de destino de archivo plano]"
-              name="Salida de Multidifusión 1"
-              startId="Package\Tarea Flujo de datos\Multidifusión.Outputs[Salida de Multidifusión 1]" />
+              refId="Package\Data Flow Task.Paths[Excel Source Output]"
+              endId="Package\Data Flow Task\Multicast.Inputs[Multicast Input 1]"
+              name="Excel Source Output"
+              startId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output]" />
             <path
-              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de Excel]"
-              endId="Package\Tarea Flujo de datos\Multidifusión.Inputs[Entrada de Multidifusión 1]"
-              name="Salida de origen de Excel"
-              startId="Package\Tarea Flujo de datos\Origen de Excel.Outputs[Salida de origen de Excel]" />
+              refId="Package\Data Flow Task.Paths[Multicast Output 1]"
+              endId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input]"
+              name="Multicast Output 1"
+              startId="Package\Data Flow Task\Multicast.Outputs[Multicast Output 1]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Multicast Output 2]"
+              endId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Multicast Output 2"
+              startId="Package\Data Flow Task\Multicast.Outputs[Multicast Output 2]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -908,39 +1072,51 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="180,42"
-          Id="Package\Tarea Flujo de datos"
-          TopLeft="414.5,10.5" />
+          Size="151,42"
+          Id="Package\Data Flow Task"
+          TopLeft="161.5,48.5" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Tarea Flujo de datos">
+    design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="157,42"
-          Id="Package\Tarea Flujo de datos\Origen de Excel"
-          TopLeft="410.5,15.5" />
+          Size="139,42"
+          Id="Package\Data Flow Task\Excel Source"
+          TopLeft="212.5,29.5" />
         <NodeLayout
-          Size="140,42"
-          Id="Package\Tarea Flujo de datos\Multidifusión"
-          TopLeft="416,106" />
+          Size="120,42"
+          Id="Package\Data Flow Task\Multicast"
+          TopLeft="346.5,109.5" />
         <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de Excel]"
-          TopLeft="487.5,57.5">
+          Id="Package\Data Flow Task.Paths[Excel Source Output]"
+          TopLeft="282,71.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,48.5"
+              EndConnector="124.5,38"
               Start="0,0"
-              End="0,41">
+              End="124.5,30.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41" />
+                    End="0,15" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15"
+                    Point2="0,19"
+                    Point3="4,19" />
+                  <mssgle:LineSegment
+                    End="120.5,19" />
+                  <mssgle:CubicBezierSegment
+                    Point1="120.5,19"
+                    Point2="124.5,19"
+                    Point3="124.5,23" />
+                  <mssgle:LineSegment
+                    End="124.5,30.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -950,23 +1126,73 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="200,42"
-          Id="Package\Tarea Flujo de datos\Destino de archivo plano"
-          TopLeft="109,101" />
+          Size="172,42"
+          Id="Package\Data Flow Task\Flat File Destination"
+          TopLeft="59.5,189.5" />
         <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de Multidifusión 1]"
-          TopLeft="416,124.5">
+          Id="Package\Data Flow Task.Paths[Multicast Output 1]"
+          TopLeft="406.5,151.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-107,0"
+              EndConnector="-261,38"
               Start="0,0"
-              End="-99.5,0">
+              End="-261,30.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-99.5,0" />
+                    End="0,15" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15"
+                    Point2="0,19"
+                    Point3="-4,19" />
+                  <mssgle:LineSegment
+                    End="-257,19" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-257,19"
+                    Point2="-261,19"
+                    Point3="-261,23" />
+                  <mssgle:LineSegment
+                    End="-261,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Data Flow Task\OLE DB Destination"
+          TopLeft="515,186" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Multicast Output 2]"
+          TopLeft="425.166666666667,151.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="175.333333333333,34.5"
+              Start="0,0"
+              End="175.333333333333,27">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.0723684210526" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.0723684210526"
+                    Point2="0,14.0723684210526"
+                    Point3="4,14.0723684210526" />
+                  <mssgle:LineSegment
+                    End="171.333333333333,14.0723684210526" />
+                  <mssgle:CubicBezierSegment
+                    Point1="171.333333333333,14.0723684210526"
+                    Point2="175.333333333333,14.0723684210526"
+                    Point3="175.333333333333,18.0723684210526" />
+                  <mssgle:LineSegment
+                    End="175.333333333333,27" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -979,7 +1205,20 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Tarea Flujo de datos\Origen de Excel">
+    design-time-name="Package\Data Flow Task\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
