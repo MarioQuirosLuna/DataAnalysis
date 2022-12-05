@@ -14,19 +14,19 @@
     <Manifest>
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
-          <SSIS:Property SSIS:Name="ID">{b05ea103-4f0c-41be-b749-bcd6d562499b}</SSIS:Property>
+          <SSIS:Property SSIS:Name="ID">{ae7b9d84-f8d8-4edf-8271-d6d2988a2682}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">ETLB76090</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="CreationDate">2022-12-02T12:56:09.4609307-06:00</SSIS:Property>
-          <SSIS:Property SSIS:Name="CreatorName">MARIOQUIRÓSLUNA\Usuario</SSIS:Property>
-          <SSIS:Property SSIS:Name="CreatorComputerName">MARIOQUIRÓSLUNA</SSIS:Property>
+          <SSIS:Property SSIS:Name="CreationDate">2022-12-04T18:16:25.107391-06:00</SSIS:Property>
+          <SSIS:Property SSIS:Name="CreatorName">MARIOQL\mario</SSIS:Property>
+          <SSIS:Property SSIS:Name="CreatorComputerName">MARIOQL</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzwNFPESTu064xB0bR7RSmQAAAAACAAAAAAAQZgAAAAEAACAAAACt9nPvh/C2+X9vbBG+QW08C6Laa31jsEWy5BRvSGeUngAAAAAOgAAAAAIAACAAAABIrwKYibAwRX+CimNl7jMVpcC5543QMmeLlHwCsee5GZAAAADRVU84PurZ2a1DA1uuRaNyCIUaF0uZuD3hpx0ixmWxEFHGLxqq8k1x9jb9snZ0nzIowI6hKf3FlOoM9vf0NSmYUs/B7jPDyLg5IMyUB7r8ImyBN2Lat//DfoHZZ+6wFcvMyGtwSSvQO/wBl0ej6gMt6tOJnGyox3v1U6wvChda4x2UYZpRpc9yJgN9pP2dGNdAAAAA0htZ4hHtyYayjS0jeadz/r+INsAilvjbUVn7+NNnA/sWaQHiw/aUmR05p4WIBzMp9e5LMkZhAd1QLPbTnPBbgQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAu+B8KrQaxkuBTg1Q6Q+M6QAAAAACAAAAAAAQZgAAAAEAACAAAAAQhz8RHhSEAQWIWRz6lPI5kzXTL0n0j8XGIgAkPJgRfAAAAAAOgAAAAAIAACAAAACRRdsmGNC1VHmESDENoP4lyuZ4pdrUQ9+Q+TQJ2IIQAZAAAAAgPjitqXVuvMC0dc7qz5JcFt3Ly8rBTL56R0m7KreIt3mjfq57P/ZlJDpSYAO866SWB8YYickcuZW/Nq01wCWjXBRXwJhDNLc9Oiync3RFya6ppZsuaK9RPHc8uunqijqKGoUwLpMa9DJiAnB/RxsDbwUEpzyk8b6VPif39bo4nukD4s5VjwjQKlvUgEcH6BFAAAAAKbTUicw6EnCeah9o1/Lf3sbOfG/r1HSEzsUbnRD8K0JSA1GJFUio3jvhqVJtuSExwmragfFHBKZ7GC3Qp0LfTg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -38,14 +38,14 @@
           <SSIS:PackageInfo>
             <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{146EA19A-0F9D-436D-AFE8-E44B8B89A4B3}</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{B37C523F-7544-4946-A68A-27EC286338B8}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{A6B90E7F-AB65-43FA-BB5A-2E4A3DA6026C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{CF17EF48-7D80-43B0-B83F-E70E3CC9F19E}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -123,7 +123,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Usuario\Desktop\ProyectosPersonales\DataAnalysis\Almacen.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\mario\Desktop\Universidad\Proyectos\Examen2-Aplicada-B76090\Almacen.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -198,7 +198,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">5130</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">3082</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -274,7 +274,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Usuario\Desktop\ProyectosPersonales\DataAnalysis\WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\mario\Desktop\Universidad\Proyectos\Examen2-Aplicada-B76090\WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -289,7 +289,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Usuario\Desktop\ProyectosPersonales\DataAnalysis\WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\mario\Desktop\Universidad\Proyectos\Examen2-Aplicada-B76090\WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -362,7 +362,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Usuario\Desktop\ProyectosPersonales\DataAnalysis\WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\mario\Desktop\Universidad\Proyectos\Examen2-Aplicada-B76090\WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -406,7 +406,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=EXAMEN2_APLICADA_B76090;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{E443EE57-94A2-4C98-AE25-926858C7DB84}localhost.EXAMEN2_APLICADA_B76090;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=EXAMEN2_APLICADA_B76090;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{B4BC8F5E-6D14-4C90-AF54-C9DAC5A95AF5}localhost.EXAMEN2_APLICADA_B76090;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -553,13 +553,7 @@
         <LinkedAzureSSISIR />
         <LinkedAzureStorage />
         <RemoteExecutionFolder />
-        <ParameterConfigurationValues>
-          <ConfigurationSetting>
-            <Id>LastModifiedTime</Id>
-            <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2022-12-02T19:03:27.4905745Z</Value>
-          </ConfigurationSetting>
-        </ParameterConfigurationValues>
+        <ParameterConfigurationValues />
       </Options>
     </Configuration>
   </Configurations>
